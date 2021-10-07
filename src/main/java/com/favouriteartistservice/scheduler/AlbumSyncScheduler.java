@@ -4,13 +4,13 @@ import com.favouriteartistservice.domain.Album;
 import com.favouriteartistservice.domain.Artist;
 import com.favouriteartistservice.exception.ItunesIntegrationException;
 import com.favouriteartistservice.itunes.ItunesService;
-import com.favouriteartistservice.repository.AlbumRepository;
 import com.favouriteartistservice.repository.ArtistRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
-import java.util.*;
+import java.util.List;
+import java.util.Set;
 import java.util.stream.Collectors;
 
 @Service

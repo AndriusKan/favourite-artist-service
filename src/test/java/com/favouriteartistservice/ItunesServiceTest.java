@@ -38,7 +38,6 @@ public class ItunesServiceTest {
         MockResponse mockResponse = new MockResponse()
                 .addHeader("Content-Type", "text/javascript; charset=utf-8")
                 .setBody("");
-
         mockWebServer.enqueue(mockResponse);
 
         Assertions.assertThrows(ItunesIntegrationException.class, () -> {
@@ -53,7 +52,6 @@ public class ItunesServiceTest {
         MockResponse mockResponse = new MockResponse()
                 .addHeader("Content-Type", "text/javascript; charset=utf-8")
                 .setBody(text);
-
         mockWebServer.enqueue(mockResponse);
 
         ItunesArtistSearchResponse response = itunesService.searchArtists("Artist");
@@ -70,7 +68,6 @@ public class ItunesServiceTest {
         MockResponse mockResponse = new MockResponse()
                 .addHeader("Content-Type", "text/javascript; charset=utf-8")
                 .setBody(text);
-
         mockWebServer.enqueue(mockResponse);
 
         ItunesAlbumSearchResponse response = itunesService.searchArtistAlbums(Collections.singletonList(new Artist()));
