@@ -1,0 +1,8 @@
+{
+ "resultCount":1,
+ "results": [
+{"wrapperType":"artist", "artistType":"Artist", "artistName":"ABBA", "artistLinkUrl":"https://music.apple.com/us/artist/abba/372976?uo=4", "artistId":372976, "amgArtistId":3492, "primaryGenreName":"Pop", "primaryGenreId":14}
+]
+}
+
+
