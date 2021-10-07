@@ -11,4 +11,4 @@ returned by search, and saves it to the database for specific user
 POST http://localhost:8080/favourite-artist-service/get-artist-albums - Consumes the body of the artist, and retrieves
 artist album's, either from local database or makes a call to itunes
 
-Application has swagger enabled - http://localhost:8080/swagger-ui
+Application has swagger enabled - http://localhost:8080/swagger-ui/
