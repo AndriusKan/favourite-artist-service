@@ -1,0 +1,1 @@
+# favourite-artist-service
